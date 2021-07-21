@@ -6,4 +6,8 @@ la base de datos
 3. ejecutar el comando composer install
 4. ejecutar el comando npm install
 5. ejecutar el comando php artisan key:generate para generar una key valida
-5. Nota si las tablas no migraron realizar una migracion con el comando php artisan migrate
+5. crear las migraciones con el comando php artisan migrate
+6. dirigirse a vendor/crocodicstudio/crudbooster/src/database/seeds y abrir el archivo llamado
+CBSeeder.php y agregar despues de laapertura <?php.
+namespace Database\Seeders;
+7. ejecutar php artisan crudbooster:install darle clic en Y
