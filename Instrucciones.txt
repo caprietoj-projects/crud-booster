@@ -5,4 +5,5 @@ para la instalacion de este crud simplemente:
 la base de datos
 3. ejecutar el comando composer install
 4. ejecutar el comando npm install
+5. ejecutar el comando php artisan key:generate para generar una key valida
 5. Nota si las tablas no migraron realizar una migracion con el comando php artisan migrate
